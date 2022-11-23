@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+<style>
+h1{text-align:center;}
+</style>
+</head>
+<body>
+<h1>SIGN IN</h1>
+</body>
+</html>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="styles/Login.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./scripts/ValidateForm.js"></script>
+    
+</head>
+<body style="background-color:hsla(0,100%,50%,0.5);">
+
+    <header>
+    </header>
+
+
+    <form id="form" style="align-items: center; text-align: center; margin-top: 200px;">
+        <div class="imgcontainer">
+          <!-- <img src="img_avatar2.png" alt="Avatar" class="avatar"> -->
+        </div>
+      
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="username" required style="padding: 5px; opacity: 0.6;">
+        <div style="padding: 15px;">
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="password" required style="padding: 5px; opacity: 0.6;">
+        </div>
+	<a href><span class="">Forgot password</span></a>
+<br><br>
+        <div>
+          <button type="submit" onclick="validateLogin()">Login</button>
+          <!-- <div class="container" style="background-color:#f1f1f1"> -->
+            <button type="button" class="cancelbtn">Cancel</button>
+           
+        </div>
+        </div>
+      
+        <div id="auth"></div>
+        </div>
+      </form>
+
+        </div>
+    </footer>
+</body>
+</html>
